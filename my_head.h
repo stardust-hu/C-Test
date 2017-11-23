@@ -1,5 +1,5 @@
 //
-// Created by yhu on 2017/11/22.
+// Created by stardust on 2017/11/22.
 //
 
 #ifndef UNTITLED_HEADER_H
@@ -17,3 +17,12 @@ void learn2();
 
 // learn3.cpp
 void learn3();
+
+// learn4.cpp
+void learn4();
+
+// learn5.cpp
+void learn5();
+
+// learn6.cpp
+void learn6();

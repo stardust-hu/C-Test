@@ -1,5 +1,5 @@
 //
-// Created by yhu on 2017/11/23.
+// Created by stardust on 2017/11/23.
 //
 #include <iostream>
 #include "my_head.h"
