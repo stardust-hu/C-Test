@@ -5,9 +5,7 @@ using namespace std;
 
 
 int main() {
-    learn6();
+    learn9();
 
     return 0;
 }
-
-

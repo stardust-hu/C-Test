@@ -7,6 +7,8 @@
 
 using namespace std;
 
+#include <cstring>
+
 
 void test4_1() {
     char ch[] = {'a', 'b', 'c'};

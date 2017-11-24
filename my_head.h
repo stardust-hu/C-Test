@@ -26,3 +26,6 @@ void learn5();
 
 // learn6.cpp
 void learn6();
+
+// learn9.cpp
+void learn9();
