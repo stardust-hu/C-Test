@@ -5,8 +5,6 @@
 #ifndef UNTITLED_HEADER_H
 #define UNTITLED_HEADER_H
 
-#endif //UNTITLED_HEADER_H
-
 // learn1.cpp
 void swap_1(int *x, int *y);
 void swap_2(int &x, int &y);
@@ -29,3 +27,15 @@ void learn6();
 
 // learn9.cpp
 void learn9();
+
+// learn10.cpp
+void learn10();
+
+// learn11.cpp
+void learn11();
+
+// learn12.cpp
+void learn12();
+
+#endif //UNTITLED_HEADER_H
+
