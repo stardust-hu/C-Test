@@ -8,45 +8,45 @@
 using namespace std;
 
 
-class Line {
+class Line12 {
 public:
     double get_length();
-    Line(double length);
-    Line(const Line &obj);
-    ~Line();
+    Line12(double length);
+    Line12(const Line12 &obj);
+    ~Line12();
 
 private:
     double *ptr;
 };
 
-Line::Line(double length){
+Line12::Line12(double length){
     cout << "init" << endl;
     this->ptr = new double;
     *ptr = length;
 }
 
-Line::Line(const Line &obj){
+Line12::Line12(const Line12 &obj){
     cout << "copy" << endl;
     this->ptr = new double;
     *ptr = *obj.ptr;
 }
 
-Line::~Line(){
+Line12::~Line12(){
     delete this->ptr;
 }
 
 
-double Line::get_length() {
+double Line12::get_length() {
     return *ptr;
 }
 
-void display(Line obj) {
+void display(Line12 obj) {
     cout << obj.get_length() << endl;
 }
 
 
 void test12_1() {
-    Line line(12.3);
+    Line12 line(12.3);
     display(line);
 }
 
